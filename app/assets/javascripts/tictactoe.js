@@ -6,9 +6,11 @@ function mark(element, position) {
   if (marks1.indexOf(position) === -1 && marks2.indexOf(position) === -1) {
     if (counter % 2 === 0) {
       element.innerHTML = "X";
+      element.style.color = "red";
       marks1.push(position);
     } else {
       element.innerHTML = "O";
+      element.style.color = "blue"
       marks2.push(position);
     }
     counter++
