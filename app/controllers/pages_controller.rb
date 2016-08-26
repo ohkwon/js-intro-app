@@ -26,4 +26,7 @@ class PagesController < ApplicationController
   def boxcalculator
   end
 
+  def tictactoe
+  end
+
 end
